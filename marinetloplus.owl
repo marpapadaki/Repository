@@ -1,0 +1,1864 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#" >
+    <!ENTITY marinetlo "http://www.ics.forth.gr/isl/ontology/MarineTLO/" >
+    <!ENTITY imarinetlo "http://www.ics.forth.gr/isl/ontology/iMarineTLO/" >
+]>
+
+
+<rdf:RDF xmlns="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"
+     xml:base="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:marinetlo="http://www.ics.forth.gr/isl/ontology/MarineTLO/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:imarinetlo="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.ics.forth.gr/isl/ontology/iMarineTLO/">
+        <dcterms:issued rdf:datatype="&xsd;date">2014-04-24</dcterms:issued>
+        <dcterms:modified rdf:datatype="&xsd;date">2014-04-24</dcterms:modified>
+        <owl:versionInfo rdf:datatype="&xsd;decimal">4.0</owl:versionInfo>
+        <dcterms:description> Extending MarineTLO - a top-level ontology for the marine domain used in the context of the EU iMarine project.</dcterms:description>
+        <dcterms:creator> Carlo Allocca </dcterms:creator>
+        <dcterms:contributor> Carlo Allocca </dcterms:contributor>
+        <dcterms:creator> Martin Doerr </dcterms:creator>
+        <dcterms:contributor> Nikos Minadakis </dcterms:contributor>
+        <dcterms:rights>Copyright © FORTH ICS</dcterms:rights>
+        <dcterms:contributor> Julien Barde </dcterms:contributor>
+        <dcterms:contributor> Martin Doerr </dcterms:contributor>
+        <dcterms:creator> Nikos Minadakis </dcterms:creator>
+        <dcterms:title> MarineTLO Ontology for iMarine Project</dcterms:title>
+        <dcterms:creator> Chrysoula Bekiari </dcterms:creator>
+        <dcterms:contributor> Chrysoula Bekiari </dcterms:contributor>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <dcterms:creator rdf:resource="http://users.ics.forth.gr/~fafalios/"/>
+        <dcterms:contributor rdf:resource="http://users.ics.forth.gr/~fafalios/"/>
+        <dcterms:contributor rdf:resource="http://users.ics.forth.gr/~marketak/pages/aboutme.html"/>
+        <dcterms:creator rdf:resource="http://users.ics.forth.gr/~marketak/pages/aboutme.html"/>
+        <dcterms:creator rdf:resource="http://users.ics.forth.gr/~tzitzik/"/>
+        <dcterms:contributor rdf:resource="http://users.ics.forth.gr/~tzitzik/"/>
+        <dcterms:publisher rdf:resource="http://www.ics.forth.gr/isl"/>
+        <owl:imports rdf:resource="http://www.ics.forth.gr/isl/ontology/MarineTLO/"/>
+        <owl:versionIRI rdf:resource="http://www.ics.forth.gr/isl/ontology/MarineTLO/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LT5_usually_is_competitor_of -->
+
+    <owl:AnnotationProperty rdf:about="&imarinetlo;LT5_usually_is_competitor_of">
+        <rdfs:label>LT5_usually_is_competitor_of</rdfs:label>
+        <rdfs:comment xml:lang="en">This property expresses the biological association of &quot;being competitor” between two types of biotic element.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property expresses the biological association of &quot;being competitor” between two types of biotic element. </rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX10_is_biotically_related_to -->
+
+    <owl:AnnotationProperty rdf:about="&imarinetlo;LX10_is_biotically_related_to">
+        <rdfs:label>LX10_is_biotically_related_to</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property expresses the biological association of &quot;any kind” between two types of biotic element. It is used when there is not much information available to establish the nature of the association. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX9_is_biotic_component_of -->
+
+    <owl:AnnotationProperty rdf:about="&imarinetlo;LX9_is_biotic_component_of">
+        <rdfs:label>LX9_is_biotic_component_of</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Biotic Element to be component type of MarineTLO Type. </rdfs:comment>
+        <rdfs:comment xml:lang="en">This property connects the type of a biotic element with the Ecosystem where it lives. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/assignedName -->
+
+    <owl:AnnotationProperty rdf:about="&imarinetlo;assignedName">
+        <rdfs:label>assignedName</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This data type property is used to assign a appellation to a MarineTLO entity. </rdfs:comment>
+        <rdfs:comment xml:lang="en">This property allows instances of MarineTLO Entity to be assigned a particular name appellation. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC44_Attribute_Assignment"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/name -->
+
+    <owl:AnnotationProperty rdf:about="&imarinetlo;name">
+        <rdfs:label>name</rdfs:label>
+        <rdfs:comment xml:lang="en">This data type property is used to assign a specific appellation - name - to a MarineTLO entity. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns a name to a MarineTLO Entity.</rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;Actor"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC12_Ecosystem"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC15_Water_Area"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC8_Actor"/>
+        <rdfs:domain rdf:resource="&marinetlo;Ecosystem"/>
+        <rdfs:domain rdf:resource="&marinetlo;WaterArea"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:domain rdf:resource="&imarinetlo;BC4_1_Exclusive_Economic_Zone"/>
+        <rdfs:domain rdf:resource="&imarinetlo;BC4_2_Country"/>
+        <rdfs:domain rdf:resource="&imarinetlo;CommonName"/>
+        <rdfs:domain rdf:resource="&imarinetlo;Country"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/reference -->
+
+    <owl:AnnotationProperty rdf:about="&imarinetlo;reference">
+        <rdfs:label>reference</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This data type property is used to assign a source of information cited, e.g. book or article, of a MarineTLO entity. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC8_Actor"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="&rdfs;label">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#priorVersion -->
+
+    <rdf:Description rdf:about="&owl;priorVersion">
+        <owl:priorVersion>http://www.ics.forth.gr/isl/MarineTLO/v3/imarinetlo.owl</owl:priorVersion>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="&vs;term_status"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LC_is_documented_in -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LC_is_documented_in">
+        <rdfs:label>LC_is_documented_in</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property is used to assign a conceptual object, e.g. book or article, where a MarineTLO entity is documented. </rdfs:comment>
+        <rdfs:range rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LC_right_held_by -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LC_right_held_by">
+        <rdfs:label>LC_used_specific_technique</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property identifies the E39 Actor w
+ho holds the instances of E30 Right to an E72 Legal
+Object.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LC_used_specific_technique -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LC_used_specific_technique">
+        <rdfs:label>LC_used_specific_technique</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property identifies a specific E29 Design or Procedure used in an Event. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC43_Activity"/>
+        <rdfs:range rdf:resource="&marinetlo;BC64_Design_or_Procedure"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LT5_usually_is_competitor_of -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LT5_usually_is_competitor_of">
+        <rdfs:label>LT5_usually_is_competitor_of</rdfs:label>
+        <rdfs:comment xml:lang="en">This property expresses the biological association of &quot;being competitor” between two types of biotic element.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property expresses the biological association of &quot;being competitor” between two types of biotic element. </rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:range rdf:resource="&marinetlo;BT10_Biotic_Element_Type"/>
+        <rdfs:domain rdf:resource="&marinetlo;BT10_Biotic_Element_Type"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX10_is_biotically_related_to -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX10_is_biotically_related_to">
+        <rdfs:label>LX10_is_biotically_related_to</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property expresses the biological association of &quot;any kind” between two types of biotic element. It is used when there is not much information available to establish the nature of the association. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:range rdf:resource="&marinetlo;BC1_TLO_Entity"/>
+        <rdfs:domain rdf:resource="&marinetlo;BT10_Biotic_Element_Type"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX11_is_endemic_to -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX11_is_endemic_to">
+        <rdfs:label>LX11_is_endemic_to</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property expresses the the ecological state of a species being unique to a defined geographic location, such as an island, nation, country or other defined zone, or habitat type. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:subPropertyOf rdf:resource="&imarinetlo;LX9_is_biotic_component_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX12_is_extirpated_from -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX12_is_extirpated_from">
+        <rdfs:label>LX12_is_extirpated_from</rdfs:label>
+        <rdfs:comment xml:lang="en">This property expresses the the ecological state of a species being eradicate or destroy completely to a defined geographic location, such as an island, nation, country or other defined zone, or habitat type. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:subPropertyOf rdf:resource="&imarinetlo;LX10_is_biotically_related_to"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX13_is_native_at -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX13_is_native_at">
+        <rdfs:label>LX13_is_native_at</rdfs:label>
+        <rdfs:comment xml:lang="en">This property expresses the the ecological state of a species being native to a defined geographic location, such as an island, nation, country or other defined zone, or habitat type. </rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:subPropertyOf rdf:resource="&imarinetlo;LX9_is_biotic_component_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX14_is_introduced_at -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX14_is_introduced_at">
+        <rdfs:label>LX14_is_introduced_at</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property expresses the the ecological state of a species being brought to a defined geographic location, such as an island, nation, country or other defined zone, or habitat type. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:subPropertyOf rdf:resource="&imarinetlo;LX9_is_biotic_component_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX9_has_biotic_component -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX9_has_biotic_component">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <owl:inverseOf rdf:resource="&imarinetlo;LX9_is_biotic_component_of"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX9_is_biotic_component_of -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX9_is_biotic_component_of">
+        <rdfs:label>LX9_is_biotic_component_of</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Biotic Element to be component type of MarineTLO Type. </rdfs:comment>
+        <rdfs:comment xml:lang="en">This property connects the type of a biotic element with the Ecosystem where it lives. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BT10_Biotic_Element_Type"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:subPropertyOf rdf:resource="&imarinetlo;LX10_is_biotically_related_to"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX_caught -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX_caught">
+        <owl:inverseOf rdf:resource="&imarinetlo;LX_has_been_caught"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX_has_been_caught -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX_has_been_caught">
+        <rdfs:label>LX_has_been_caught</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Biotic Element that have been caught is a capture activity. </rdfs:comment>
+        <rdfs:range rdf:resource="&marinetlo;BC61_Capture_Activity"/>
+        <rdfs:domain rdf:resource="&marinetlo;BT10_Biotic_Element_Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX_has_code_type -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX_has_code_type">
+        <rdfs:label>LX_has_code_type</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of BC32_Identifier to be typed. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&imarinetlo;IdentifierType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX_has_codification_system -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX_has_codification_system">
+        <rdfs:label>LX_has_codification_system</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of CountryCode to be typed. </rdfs:comment>
+        <rdfs:range rdf:resource="&imarinetlo;CodificationSystemType"/>
+        <rdfs:domain rdf:resource="&imarinetlo;CountryCode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX_is_discarded_by -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX_is_discarded_by">
+        <rdfs:label>LX_is_discarded_by</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Biotic Element that have been discarded by a capture activity. </rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX_related_authorship_assignment -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX_related_authorship_assignment">
+        <rdfs:label>LX_related_authorship_assignment</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Biotic Element Type to assign its authorship. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:subPropertyOf rdf:resource="&marinetlo;LC13_is_carried_out_by"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX_related_identifier_assignment -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX_related_identifier_assignment">
+        <rdfs:label>LX_related_identifier_assignment</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Biotic Element Type to assign its scientific name. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:subPropertyOf rdf:resource="&marinetlo;LX6_type_was_attributed_by"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LX_used_object_of_type -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;LX_used_object_of_type">
+        <rdfs:label>LX_used_object_of_type</rdfs:label>
+        <rdfs:comment xml:lang="en">This property allows instances of MarineTLO Entity to be associated with activity types. </rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:domain rdf:resource="&marinetlo;BC43_Activity"/>
+        <rdfs:range rdf:resource="&marinetlo;BT32_Persisten_Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/corresponds_to -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;corresponds_to">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&imarinetlo;MarineTLOPlusSpecies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;derivedDuring">
+        <rdfs:range rdf:resource="&marinetlo;BC10_Event"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC48_Database"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/has -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;has">
+        <rdfs:range rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/has_name -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;has_name">
+        <rdfs:range rdf:resource="&marinetlo;BC30_Appellation"/>
+        <rdfs:domain rdf:resource="&imarinetlo;MarineTLOPlusSpecies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/in_chemical -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;in_chemical">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&imarinetlo;ContrastEnhancementMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/isTypeOf -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;isTypeOf">
+        <rdfs:label>isTypeOf</rdfs:label>
+        <rdfs:comment xml:lang="en">This property allows instances of BC27_Publication to be associated with its type, BibliographyResourceType. </rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:range rdf:resource="&imarinetlo;BibliographyResourceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_associated_with -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;is_associated_with">
+        <rdfs:label>is_associated_with</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Marine TLO Entity to be associated with any instances of MarineTLO Entity. </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;is_recognised_by">
+        <rdfs:range rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC48_Database"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_reference_for -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;is_reference_for"/>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;is_related_to">
+        <rdfs:range rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC32_Identifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_used_in -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;is_used_in"/>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;participated_in">
+        <rdfs:range rdf:resource="&marinetlo;BC10_Event"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC32_Identifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/providedBy -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;providedBy">
+        <rdfs:range rdf:resource="&marinetlo;BC11_Person"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/reconBy -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;reconBy">
+        <rdfs:range rdf:resource="&marinetlo;BC11_Person"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC32_Identifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/scannedBy -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;scannedBy">
+        <rdfs:range rdf:resource="&marinetlo;BC11_Person"/>
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/scanned_by_using -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;scanned_by_using">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&imarinetlo;Instrument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy -->
+
+    <owl:ObjectProperty rdf:about="&imarinetlo;subvolumeCreatedBy">
+        <rdfs:range rdf:resource="&marinetlo;BC11_Person"/>
+        <rdfs:domain rdf:resource="&imarinetlo;SubvolumeProduct"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/accessedData -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;accessedData">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns the accessed data of a Webgraphy Citation. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:domain rdf:resource="&imarinetlo;WebographyCitation"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/accessedFrom -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;accessedFrom">
+        <rdfs:comment xml:lang="en">This property assigns the accessed info  of a Webgraphy Citation. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:domain rdf:resource="&imarinetlo;WebographyCitation"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/assignedCode -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;assignedCode">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns a code/identifier to a Water Area. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC1_TLO_Entity"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/assignedDate -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;assignedDate">
+        <rdfs:comment xml:lang="en">This property assigns the data of the event &quot;Identifier Assignment&quot; . </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:domain rdf:resource="&marinetlo;BC46_Identifier_Assignment"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/assignedName -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;assignedName">
+        <rdfs:label>assignedName</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This data type property is used to assign a appellation to a MarineTLO entity. </rdfs:comment>
+        <rdfs:comment xml:lang="en">This property allows instances of MarineTLO Entity to be assigned a particular name appellation. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/authorName -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;authorName">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns name of a reference resource. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/beginOfPreparationDate -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;beginOfPreparationDate">
+        <rdfs:domain rdf:resource="&imarinetlo;ScanningEvent"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/collectionCode -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;collectionCode">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/date -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;date">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns date of a reference resource. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/endOfPreparationDate -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;endOfPreparationDate">
+        <rdfs:domain rdf:resource="&imarinetlo;ScanningEvent"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/fixationNotes -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;fixationNotes">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/fixationType -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;fixationType">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/format -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;format">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns a format (e.g. pdf, word, etc) to a bibliography resource. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:domain rdf:resource="&imarinetlo;BibliographyResource"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/hasAbbreviation -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;hasAbbreviation">
+        <rdfs:comment xml:lang="en">This property assigns the abbreviation of a country (e.g. GR, IT, FR, UK, etc). </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:domain rdf:resource="&imarinetlo;BC4_2_Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/hasLanguage -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;hasLanguage">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns the language related to MarineTLO Entity.</rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/hasValueCode -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;hasValueCode">
+        <rdfs:label>hasValueCode</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Country to be associated with any instances of CountryCode. </rdfs:comment>
+        <rdfs:domain rdf:resource="&imarinetlo;CountryCode"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/inSource -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;inSource">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns the sourse in which a reference resource has been publishied. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/keyWords -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;keyWords">
+        <rdfs:comment xml:lang="en">This property assigns the key words describing a bibliography.</rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/material -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;material">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/name -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;name">
+        <rdfs:label>name</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This data type property is used to assign a specific appellation - name - to a MarineTLO entity. </rdfs:comment>
+        <rdfs:comment xml:lang="en">This property assigns a name to a MarineTLO Entity.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/preparationNotes -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;preparationNotes">
+        <rdfs:domain rdf:resource="&imarinetlo;ScanningEvent"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/preservationMedium -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;preservationMedium">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/protocol -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;protocol">
+        <rdfs:domain rdf:resource="&imarinetlo;ContrastEnhancementMethod"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/providerInstitute -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;providerInstitute">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/publisher -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;publisher">
+        <rdfs:comment xml:lang="en">This property assignes the publisher&apos;s description related to a bibliography resource. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/reconDate -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;reconDate">
+        <rdfs:domain rdf:resource="&imarinetlo;ReconstructionEvent"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/reconDuration -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;reconDuration">
+        <rdfs:domain rdf:resource="&imarinetlo;ReconstructionEvent"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/reconNotes -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;reconNotes">
+        <rdfs:domain rdf:resource="&imarinetlo;ReconstructionEvent"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/reconScope -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;reconScope">
+        <rdfs:domain rdf:resource="&imarinetlo;ReconProduct"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/reference -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;reference">
+        <rdfs:label>reference</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This data type property is used to assign a source of information cited, e.g. book or article, of a MarineTLO entity. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/remark -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;remark">
+        <rdfs:comment xml:lang="en">This property assigns note to a bibliography resource. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/rights -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;rights">
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property assigns the right associated with a bibliography resource.</rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/sampleHolder -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;sampleHolder">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/scanDate -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;scanDate">
+        <rdfs:domain rdf:resource="&imarinetlo;ScanningEvent"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/scannedPart -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;scannedPart">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/scanningDuration -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;scanningDuration">
+        <rdfs:domain rdf:resource="&imarinetlo;ScanningEvent"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/scanningMedium -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;scanningMedium">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/size_mm -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;size_mm">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/specimenNotes -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;specimenNotes">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/storagePlace -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;storagePlace">
+        <rdfs:domain rdf:resource="&marinetlo;BC53_Specimen"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;subvolumeScope">
+        <rdfs:domain rdf:resource="&imarinetlo;SubvolumeProduct"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/title -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;title">
+        <rdfs:comment xml:lang="en">This property assigns a title to works, such as texts, artworks or pieces of music. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/url -->
+
+    <owl:DatatypeProperty rdf:about="&imarinetlo;url">
+        <rdfs:label>url</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This property allows instances of Publication to be associated with a specific url denoting the publication itself. </rdfs:comment>
+        <rdfs:domain rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/MarineTLO/BC57_Capture -->
+
+    <owl:Class rdf:about="&marinetlo;BC57_Capture">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC42_Collection"/>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC12_1_Marine_Ecosystem -->
+
+    <owl:Class rdf:about="&imarinetlo;BC12_1_Marine_Ecosystem">
+        <rdfs:label>BC12_1_Marine_Ecosystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC12_Ecosystem"/>
+        <rdfs:comment xml:lang="en">This class comprises specific systems consisting of marine observable material items, biotic, abiotic elements and interactions, as well as their associated relations and qualities in space time volume. Its coherence can be defined by the types of species and the types and frequency of interactions which can be observed in a space time volume. </rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC20_1_Area -->
+
+    <owl:Class rdf:about="&imarinetlo;BC20_1_Area">
+        <rdfs:label>BC20_1_Area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC20_Declarative_Place"/>
+        <rdfs:comment xml:lang="en">This class comprises instances of BC3 Place whose extent may be used to define the location and spatial extent of property
+rights or national borders. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC20_2_Sub_Area -->
+
+    <owl:Class rdf:about="&imarinetlo;BC20_2_Sub_Area">
+        <rdfs:label>BC20_2_Sub_Area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC20_Declarative_Place"/>
+        <vs:term_status>testing</vs:term_status>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:comment xml:lang="en">This class comprises instances of BC20_1_Area whose extent may be used to define the location and spatial extent of property
+rights or national borders. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC20_3_Division -->
+
+    <owl:Class rdf:about="&imarinetlo;BC20_3_Division">
+        <rdfs:label>BC20_3_Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC20_Declarative_Place"/>
+        <rdfs:comment xml:lang="en">This class comprises instances of BC20_2_Sub_Area whose extent may be used to define the location and spatial extent of property
+rights or national borders. </rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC20_4_Sub_Division -->
+
+    <owl:Class rdf:about="&imarinetlo;BC20_4_Sub_Division">
+        <rdfs:label>BC20_4_Sub_Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC20_Declarative_Place"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This class comprises instances of BC20_3_Division whose extent may be used to define the location and spatial extent of property
+rights or national borders. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC41_1_Vessel -->
+
+    <owl:Class rdf:about="&imarinetlo;BC41_1_Vessel">
+        <rdfs:label>BC41_1_Vessel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC41_Man-Made_Object"/>
+        <rdfs:comment xml:lang="en">This class comprises physical objects purposely created by human activity.
+No assumptions are made as to the extent of modification required to just
+ify regarding a vessel object as man
+- made. For example, an inscribed piece of rock or a preserved butterfly are both regarded as instances of E22 Man
+- Made Object. [ Scope Note for E22 Man - Made Object CIDOC CRM version 5.1.2] </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC46_1_Scientific_Name_Assignment -->
+
+    <owl:Class rdf:about="&imarinetlo;BC46_1_Scientific_Name_Assignment">
+        <rdfs:label>BC46_1_Scientific_Name_Assignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC46_Identifier_Assignment"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">
+This class comprises the actions of making assertions about the assignment of a scientific name of an object or any
+relation between two items or concepts. 
+ </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC4_1_Exclusive_Economic_Zone -->
+
+    <owl:Class rdf:about="&imarinetlo;BC4_1_Exclusive_Economic_Zone">
+        <rdfs:label>BC4_1_Exclusive_Economic_Zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC4_Temporal_Phenomenon"/>
+        <rdfs:comment xml:lang="en">
+This class comprises Exclusive Economic Zone objects purposely created by the actions of making assertions about the assignment of specific area of a country. 
+ </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC4_2_Country -->
+
+    <owl:Class rdf:about="&imarinetlo;BC4_2_Country">
+        <rdfs:label>BC4_2_Country</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC4_Temporal_Phenomenon"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">
+This class comprises countries as objects purposely created by the actions of making assertions about the assignment of specific area. 
+ </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BC5_1_Biological_Dimension -->
+
+    <owl:Class rdf:about="&imarinetlo;BC5_1_Biological_Dimension">
+        <rdfs:label>BC5_1_Biological_Dimension</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC5_Dimension"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">
+		This class comprises Biological Dimension as biologic objects purposely created by the actions of making assertions about its main measured charachteristics of biotic element. 
+ </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BT11_1_Vessel_Type -->
+
+    <owl:Class rdf:about="&imarinetlo;BT11_1_Vessel_Type">
+        <rdfs:label>BT11_1_Vessel_Type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT11_Equipment_Type"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">
+		This class comprises the type of vessels that are concerns with the biotic elements of the domain of discourse. 
+ </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BT11_2_Gear_Type -->
+
+    <owl:Class rdf:about="&imarinetlo;BT11_2_Gear_Type">
+        <rdfs:label>BT11_2_Gear_Type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT11_Equipment_Type"/>
+        <rdfs:comment xml:lang="en">
+		This class comprises the type of gears that are concerns with the vessel type of the domain of discourse. 
+ </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BibliographyResource -->
+
+    <owl:Class rdf:about="&imarinetlo;BibliographyResource">
+        <rdfs:label>BibliographyResource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:comment xml:lang="en">
+		This class comprises the Bibliography resource of the domain of discourse. 
+ </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/BibliographyResourceType -->
+
+    <owl:Class rdf:about="&imarinetlo;BibliographyResourceType">
+        <rdfs:label>BibliographyResourceType</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT4_Conceptual_Object_Type"/>
+        <rdfs:comment xml:lang="en">
+		This class comprises the type of the Bibliography resource of the domain of discourse. 
+ </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/CodificationSystemType -->
+
+    <owl:Class rdf:about="&imarinetlo;CodificationSystemType">
+        <rdfs:label>CodificationSystemType</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT4_Conceptual_Object_Type"/>
+        <rdfs:comment xml:lang="en">
+		This class comprises the type of classification systems used for assigning codes to instances of MarineTLO Entity. 
+ </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/CommonName -->
+
+    <owl:Class rdf:about="&imarinetlo;CommonName">
+        <rdfs:label>CommonName</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">
+		This class comprises the particular appellations used for a group of people w.r.t country, language, etc. 
+ </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ContrastEnhancementMethod -->
+
+    <owl:Class rdf:about="&imarinetlo;ContrastEnhancementMethod">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC1_TLO_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/CountryCode -->
+
+    <owl:Class rdf:about="&imarinetlo;CountryCode">
+        <rdfs:label>CountryCode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <vs:term_status> testing </vs:term_status>
+        <rdfs:comment xml:lang="en">This class allows instances of Country to be associated with any instances of CountryCode. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/DBpediaSpecies -->
+
+    <owl:Class rdf:about="&imarinetlo;DBpediaSpecies">
+        <rdfs:label>DBpediaSpecies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT27_Species"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This class is a domain specific class to denote the particular instances of species that are from DBpedia source.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/EcoscopeSpecies -->
+
+    <owl:Class rdf:about="&imarinetlo;EcoscopeSpecies">
+        <rdfs:label>EcoscopeSpecies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT27_Species"/>
+        <rdfs:comment xml:lang="en">This class is a domain specific class to denote the particular instances of species that are from Ecoscope source.  </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/EcosystemCode -->
+
+    <owl:Class rdf:about="&imarinetlo;EcosystemCode">
+        <rdfs:label>EcosystemCode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">
+		This class comprises the particular appellations used for identifying marine ecosystems. 
+ </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ExclusiveEconomicZoneCode -->
+
+    <owl:Class rdf:about="&imarinetlo;ExclusiveEconomicZoneCode">
+        <rdfs:label>ExclusiveEconomicZoneCode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:comment xml:lang="en">
+		This class comprises the particular appellations used for identifying Exclusive Economic Zone. 
+ </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/FLODSpecies -->
+
+    <owl:Class rdf:about="&imarinetlo;FLODSpecies">
+        <rdfs:label>FLODSpecies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT27_Species"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This class is a domain specific class to denote the particular instances of species that are from FLOD source.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/FishBaseSpecies -->
+
+    <owl:Class rdf:about="&imarinetlo;FishBaseSpecies">
+        <rdfs:label>FishBaseSpecies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT27_Species"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This class is a domain specific class to denote the particular instances of species that are from FishBase source.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/GearCode -->
+
+    <owl:Class rdf:about="&imarinetlo;GearCode">
+        <rdfs:label>GearCode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This class is a domain specific class to denote the particular instances of species that are from FishBase source.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/IdentifierType -->
+
+    <owl:Class rdf:about="&imarinetlo;IdentifierType">
+        <rdfs:label>IdentifierType</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT4_Conceptual_Object_Type"/>
+        <rdfs:comment xml:lang="en">This class allows instances of BC32_Identifier to be typed. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/Instrument -->
+
+    <owl:Class rdf:about="&imarinetlo;Instrument">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC58_Digital_Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/MarineTLOPlusSpecies -->
+
+    <owl:Class rdf:about="&imarinetlo;MarineTLOPlusSpecies">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT27_Species"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ReconID -->
+
+    <owl:Class rdf:about="&imarinetlo;ReconID">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ReconProduct -->
+
+    <owl:Class rdf:about="&imarinetlo;ReconProduct">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC48_Database"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ReconstructionEvent -->
+
+    <owl:Class rdf:about="&imarinetlo;ReconstructionEvent">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC10_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ScanID -->
+
+    <owl:Class rdf:about="&imarinetlo;ScanID">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ScanProduct -->
+
+    <owl:Class rdf:about="&imarinetlo;ScanProduct">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC48_Database"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ScanningEvent -->
+
+    <owl:Class rdf:about="&imarinetlo;ScanningEvent">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC10_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/ScientificName -->
+
+    <owl:Class rdf:about="&imarinetlo;ScientificName">
+        <rdfs:label>ScientificName</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:comment xml:lang="en">This class allows instances of BC32_Identifier to be specific for the name of species. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/SpeciesCode -->
+
+    <owl:Class rdf:about="&imarinetlo;SpeciesCode">
+        <rdfs:label>SpeciesCode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:comment xml:lang="en">This class allows instances of BC32_Identifier to be specific for the code of species. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent -->
+
+    <owl:Class rdf:about="&imarinetlo;SubvolumeEvent">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC10_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID -->
+
+    <owl:Class rdf:about="&imarinetlo;SubvolumeID">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct -->
+
+    <owl:Class rdf:about="&imarinetlo;SubvolumeProduct">
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC48_Database"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/VesselCode -->
+
+    <owl:Class rdf:about="&imarinetlo;VesselCode">
+        <rdfs:label>VesselCode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:comment xml:lang="en">This class allows instances of BC32_Identifier to be specific for the code of vessels. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/WaterAreaCode -->
+
+    <owl:Class rdf:about="&imarinetlo;WaterAreaCode">
+        <rdfs:label>WaterAreaCode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC32_Identifier"/>
+        <rdfs:comment xml:lang="en">This class allows instances of BC32_Identifier to be specific for the code of water area. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/WebographyCitation -->
+
+    <owl:Class rdf:about="&imarinetlo;WebographyCitation">
+        <rdfs:label>WebographyCitation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BC27_Publication"/>
+        <rdfs:comment xml:lang="en">This class allows instances of BC32_Identifier to be specific for the reference citation. </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/WoRMSSpecies -->
+
+    <owl:Class rdf:about="&imarinetlo;WoRMSSpecies">
+        <rdfs:label>WoRMSSpecies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&marinetlo;BT27_Species"/>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This class is a domain specific class to denote the particular instances of species that are from Worms source.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://users.ics.forth.gr/~fafalios/ -->
+
+    <owl:NamedIndividual rdf:about="http://users.ics.forth.gr/~fafalios/">
+        <rdf:type rdf:resource="&foaf;Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://users.ics.forth.gr/~marketak/pages/aboutme.html -->
+
+    <owl:NamedIndividual rdf:about="http://users.ics.forth.gr/~marketak/pages/aboutme.html">
+        <rdf:type rdf:resource="&foaf;Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://users.ics.forth.gr/~tzitzik/ -->
+
+    <owl:NamedIndividual rdf:about="http://users.ics.forth.gr/~tzitzik/">
+        <rdf:type rdf:resource="&foaf;Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/CommonLength -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;CommonLength">
+        <rdf:type rdf:resource="&imarinetlo;BC5_1_Biological_Dimension"/>
+        <rdfs:label>CommonLength</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the common length of species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/CommonLengthFemale -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;CommonLengthFemale">
+        <rdf:type rdf:resource="&imarinetlo;BC5_1_Biological_Dimension"/>
+        <rdfs:label>CommonLengthFemale</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the common female length of species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/DBpediaCode -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;DBpediaCode">
+        <rdf:type rdf:resource="&imarinetlo;IdentifierType"/>
+        <rdfs:label>DBpediaCode</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for typing a code from the DBpedia source.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/FAOCode -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;FAOCode">
+        <rdf:type rdf:resource="&imarinetlo;IdentifierType"/>
+        <rdfs:label>FAOCode</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for typing a code from the FAO source.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/FishBaseCode -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;FishBaseCode">
+        <rdf:type rdf:resource="&imarinetlo;IdentifierType"/>
+        <rdfs:label>FishBaseCode</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for typing a code from the FishBase source.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/IRDCode -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;IRDCode">
+        <rdf:type rdf:resource="&imarinetlo;IdentifierType"/>
+        <rdfs:label>IRDCode</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for typing a code from the Ecoscope source.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/Length -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;Length">
+        <rdf:type rdf:resource="&imarinetlo;BC5_1_Biological_Dimension"/>
+        <rdfs:label>Length</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the length of species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LengthFemale -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;LengthFemale">
+        <rdf:type rdf:resource="&imarinetlo;BC5_1_Biological_Dimension"/>
+        <rdfs:label>LengthFemale</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the female length of species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LongevityCaptive -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;LongevityCaptive">
+        <rdf:type rdf:resource="&imarinetlo;BC5_1_Biological_Dimension"/>
+        <rdfs:label>LongevityCaptive</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the longevity at capture time of species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/LongevityWild -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;LongevityWild">
+        <rdf:type rdf:resource="&imarinetlo;BC5_1_Biological_Dimension"/>
+        <rdfs:label>LongevityWild</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the longevity wild of species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/Weight -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;Weight">
+        <rdf:type rdf:resource="&imarinetlo;BC5_1_Biological_Dimension"/>
+        <rdfs:label>Weight</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the weight of species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/WeightFemale -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;WeightFemale">
+        <rdf:type rdf:resource="&imarinetlo;BC5_1_Biological_Dimension"/>
+        <rdfs:label>WeightFemale</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the Female Weight of species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/WormsCode -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;WormsCode">
+        <rdf:type rdf:resource="&imarinetlo;IdentifierType"/>
+        <rdfs:label>WormsCode</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the Worm code for a species.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/article -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;article">
+        <rdf:type rdf:resource="&imarinetlo;BibliographyResourceType"/>
+        <rdfs:label>article</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for article type.  </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/book -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;book">
+        <rdf:type rdf:resource="&imarinetlo;BibliographyResourceType"/>
+        <rdfs:label>book</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for book type.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/bookChapter -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;bookChapter">
+        <rdf:type rdf:resource="&imarinetlo;BibliographyResourceType"/>
+        <rdfs:label>bookChapter</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for book Chapter type.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/global_statistic_landing -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;global_statistic_landing">
+        <rdf:type rdf:resource="&marinetlo;BC5_Dimension"/>
+        <rdfs:label>global_statistic_landing</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the global_statistic_landing.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/iso2_alpha -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;iso2_alpha">
+        <rdf:type rdf:resource="&imarinetlo;CodificationSystemType"/>
+        <rdfs:label>iso2_alpha</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the iso2_alpha code system.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/iso3_alpha -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;iso3_alpha">
+        <rdf:type rdf:resource="&imarinetlo;CodificationSystemType"/>
+        <rdfs:label>iso3_alpha</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the iso3_alpha code system.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/iso_code -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;iso_code">
+        <rdf:type rdf:resource="&imarinetlo;CodificationSystemType"/>
+        <rdfs:label>iso_code</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the iso_code system.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/journal -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;journal">
+        <rdf:type rdf:resource="&imarinetlo;BibliographyResourceType"/>
+        <rdfs:label>journal</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the journal type.  </rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/phd_thesis -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;phd_thesis">
+        <rdf:type rdf:resource="&imarinetlo;BibliographyResourceType"/>
+        <rdfs:label>phd_thesis</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the phd thesis type.  </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/report -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;report">
+        <rdf:type rdf:resource="&imarinetlo;BibliographyResourceType"/>
+        <rdfs:label>report</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the report type.  </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ics.forth.gr/isl/ontology/iMarineTLO/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/ontology/iMarineTLO/thesis -->
+
+    <owl:NamedIndividual rdf:about="&imarinetlo;thesis">
+        <rdf:type rdf:resource="&imarinetlo;BibliographyResourceType"/>
+        <rdfs:label>thesis</rdfs:label>
+        <rdfs:comment xml:lang="en">This stance is a domain specific individual to denote the uri use for the thesis type.  </rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

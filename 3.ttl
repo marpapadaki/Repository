@@ -1,0 +1,616 @@
+<http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00001_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00001> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00001> .
+<http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00001_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00013_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00013> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00013> .
+<http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "pharynx" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00013_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00022_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00022> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00022> .
+<http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "pharynx only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00022_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00023_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00023> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00023> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00023_rec-02> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00023> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00023> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00023_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00035_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00035_rec-02> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00035_rec-02> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00035> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws, more cleanup" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00035_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00036_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00036> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00036> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00036_rec-02> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00036> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00036> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00036_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00037_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00037> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00037> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00037_rec-02> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00037> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00037> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00037_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00038_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00038> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00038> .
+<http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00038_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00040_rec-02> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00040> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00040> .
+<http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00040-rec-04_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00041_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00041_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00041_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00041_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00041> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00041_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00041_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00041_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00041_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00041> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00041_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00042_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00042_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00044_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00044> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00044> .
+<http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00044_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00045_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00045> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00045> .
+<http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00045_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00049_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00049_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00049_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00049_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00049> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00049_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00049_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00049_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00049_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00049> .
+<http://www.csd.uoc.gr/marpap/JeroenHostens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00049_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/JeroenHostens> .
+<http://www.csd.uoc.gr/marpap/JeroenHostens> <http://www.w3.org/2000/01/rdf-schema#label>  "Jeroen Hostens" .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00051_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00051_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-02> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-02.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-03> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00051_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-03> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-03> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-03.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00051> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00051_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-02> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-02.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-03> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-03> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-03> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-03.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-04> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-04> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-04.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-04> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-04.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-04.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-04.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-05> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-05> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-05.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-05> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-05.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-05.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00052> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00052_rec-01_voi-05.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00054_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00054> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00054> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00054_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00054> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-02> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-02.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00054> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00054_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00058_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00058_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00058_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00058_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00058> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00058_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00058_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00058_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00058_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00058> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00058_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00091-rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00091> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00091> .
+<http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00091-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00092-rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00092> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00092> .
+<http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00092-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00093_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00093> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00093> .
+<http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00093-rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00099_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00099> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00099> .
+<http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00099_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00103_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00103> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00103> .
+<http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00103_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00106_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only, with a tiny bit of surrounding tissue" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00106_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Pharyngeal area and jaws" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00106_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00106> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Only jaws without any surrounding tissue" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00106_rec-01_voi-03.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00042_rec-02> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00042_rec-02> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00042> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "Jaws only, but rotated to be transaxial" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00042_rec-02_voi-02.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00132_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00132> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00132> .
+<http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "body without tube" .
+<http://www.csd.uoc.gr/marpap/NikiKeklikoglou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00132_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/NikiKeklikoglou> .
+<http://www.csd.uoc.gr/marpap/NikiKeklikoglou> <http://www.w3.org/2000/01/rdf-schema#label>  "Niki Keklikoglou" .
+<http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00216_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00216> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00216> .
+<http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "cuttlebone only" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00216_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
+<http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00217_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00217> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00217> .
+<http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "cuttlebone only" .
+<http://www.csd.uoc.gr/marpap/HannahSchmidbaur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00217_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/HannahSchmidbaur> .
+<http://www.csd.uoc.gr/marpap/HannahSchmidbaur> <http://www.w3.org/2000/01/rdf-schema#label>  "Hannah Schmidbaur" .
+<http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> .
+<http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_related_to> <http://www.csd.uoc.gr/marpap/scan-00259_rec-01> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC10_Event> .
+<http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC48_Database> .
+<http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/participated_in> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00259> .
+<http://www.csd.uoc.gr/marpap/SubvolumeEvent-00259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeEvent> .
+<http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/is_recognised_by> <http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01> .
+<http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/SubvolumeProduct> .
+<http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/derivedDuring> <http://www.csd.uoc.gr/marpap/SubvolumeEvent-00259> .
+<http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeScope> "jaw area" .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> .
+<http://www.csd.uoc.gr/marpap/scan-00259_rec-01_voi-01.zip> <http://www.ics.forth.gr/isl/ontology/iMarineTLO/subvolumeCreatedBy> <http://www.csd.uoc.gr/marpap/SarahFaulwetter> .
+<http://www.csd.uoc.gr/marpap/SarahFaulwetter> <http://www.w3.org/2000/01/rdf-schema#label>  "Sarah Faulwetter" .
